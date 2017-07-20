@@ -1,1 +1,12 @@
 # restaurant-reservations
+1) Create the front-end (visuals) for home page, reservation form, and reservation views.
+
+2) Create a basic server using Express.JS
+
+3) Create a few array variables that will hold the data
+
+4) Create a set of routes for getting and posting table data
+
+5) Create a set of routes for displaying the HTML pages
+
+6) Use jQuery to run AJAX calls to GET and POST data from users to the Express server
