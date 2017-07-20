@@ -18,8 +18,8 @@
       <h2 class="text-center">We only have 5 tables! Book your seat before they are all gone!</h2>
       <br>
       <div class="text-center">
-        <a href="/add"><button type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-list-alt"></span> View Tables</button></a>
-        <a href="/add2"><button type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-credit-card"></span> Make Reservation</button></a>
+        <a href="/tables"><button type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-list-alt" id="view-tables"></span> View Tables</button></a>
+        <a href="/reserve"><button type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-credit-card" id="make-reservation"></span> Make Reservation</button></a>
       </div>
     </div>
 
@@ -29,7 +29,7 @@
     </div>
 
 <!--   <script type="text/javascript">
-    $("#search-btn").on("click", function() {
+    $("#view-tables").on("click", function() {
       var searchedCharacter = $("#character-search").val().trim();
 
       searchedCharacter = searchedCharacter.replace(/\s+/g, "").toLowerCase();
