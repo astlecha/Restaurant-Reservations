@@ -23,18 +23,13 @@
       </div>
     </div>
 
-    <div>
-      <a href="http://localhost:3000/api/tables">API Table Link</a> |
-      <a href="http://localhost:3000/api/waitlist">API Wait List</a>
-    </div>
-
     <div class="row">
 
       <div class="col-lg-12">
 
         <div class="panel panel-default">
           <div class="panel-heading">
-            <h3 class="panel-title"><strong>Add Characters</strong></h3>
+            <h3 class="panel-title"><strong>Table Reservation</strong></h3>
           </div>
           <div class="panel-body">
             <form method="POST" role="form">
@@ -45,31 +40,35 @@
               </div>
 
               <div class="form-group">
-                <label for="role">Role</label>
-                <input type="text" class="form-control" id="role">
+                <label for="phone-number">Phone Number</label>
+                <input type="text" class="form-control" id="phone-number">
               </div>
 
               <div class="form-group">
-                <label for="age">Age</label>
-                <input type="text" class="form-control" id="age">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email">
               </div>
 
               <div class="form-group">
-                <label for="force-points">Force Points</label>
-                <input type="text" class="form-control" id="force-points">
+                <label for="unique-id">Unique ID</label>
+                <input type="text" class="form-control" id="unique-id">
               </div>
+              <button type="submit" class="btn btn-primary btn-md" id="submit-btn"> Submit</button>
 
             </form>
-            <br>
-            <div class="text-right">
-              <button type="submit" class="btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-fire"></span> Add to the Force</button>
-            </div>
+
           </div>
         </div>
 
       </div>
     </div>
+     <div>
+      <a href="http://localhost:3000/api/tables">API Table Link</a> |
+      <a href="http://localhost:3000/api/waitlist">API Wait List</a>
+    </div>
   </div>
+
+
 
 <!--   <script type="text/javascript">
     // Question: What does this code do?
