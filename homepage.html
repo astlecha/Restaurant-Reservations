@@ -30,11 +30,8 @@
 
 <!--   <script type="text/javascript">
     $("#view-tables").on("click", function() {
-      var searchedCharacter = $("#character-search").val().trim();
 
-      searchedCharacter = searchedCharacter.replace(/\s+/g, "").toLowerCase();
-
-      $.get("/api/" + searchedCharacter, function(data) {
+      $.get("/api/tables" + searchedCharacter, function(data) {
         console.log(data);
         if (data) {
           $("#stats").show();
