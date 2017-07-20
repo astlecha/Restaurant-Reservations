@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-reservations",
+  "version": "1.0.0",
+  "description": "1) Create the front-end (visuals) for home page, reservation form, and reservation views.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astlecha/restaurant-reservations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astlecha/restaurant-reservations/issues"
+  },
+  "homepage": "https://github.com/astlecha/restaurant-reservations#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}

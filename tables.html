@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Hot Restaurant Table</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	</head>
+  <body>
+    <!-- Builde the jumbotron -->
+    <div class="container">
+      <div class="jumbotron">Hot Restaurant</div>
+        
+      <div class="row">
+      <!-- Use all 12 columns for the width, large -->
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">Reserved Tables</div>
+              <!-- Table body is here -->
+              <div class="panel-body" id="table-body">
+                <!-- Using wells for rounded corners, large -->
+                <div class="well-lg" id="well-1"></div>
+                <div class="well-lg" id="well-2"></div>
+                <div class="well-lg" id="well-3"></div>
+                <div class="well-lg" id="well-4"></div>
+                <div class="well-lg" id="well-5"></div>
+                
+              </div>
+          </div>
+        <!-- This is where the waiting list panel will begin -->
+        <div class="panel panel-default" id="wait-panel">
+        </div>
+
+      </div>
+    </div>
+    <!-- This will be where our script is loaded, must have following line -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
